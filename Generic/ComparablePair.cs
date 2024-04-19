@@ -32,8 +32,7 @@ namespace Generic
             else
             {
                 return u.CompareTo(other.u);
-            }
-            
+            }          
         }
     }
 
