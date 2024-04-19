@@ -1,5 +1,8 @@
 ﻿using Generic;
 
-var print = new Pair<string, int>("Bob", 25);
-var print2 = new Pair<string, double>("Jonh", 22.5);
+ComparablePair<int, string> pair1 = new ComparablePair<int, string>(1, "one");
+ComparablePair<int, string> pair2 = new ComparablePair<int, string>(1, "two");
+ComparablePair<int, string> pair3 = new ComparablePair<int, string>(1, "one");
+
+
 
