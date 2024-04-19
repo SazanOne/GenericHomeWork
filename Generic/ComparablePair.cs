@@ -29,7 +29,11 @@ namespace Generic
             {
                 return result;
             }
-            return u.CompareTo(other.u);
+            else
+            {
+                return u.CompareTo(other.u);
+            }
+            
         }
     }
 
